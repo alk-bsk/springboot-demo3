@@ -35,6 +35,7 @@ public class InventoryControllerTest {
 	  public void setup() throws Exception {
 	    mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
 	  }
+	
 	 @Test
 	 public void getProduct_Ok() throws Exception{
 		 RestTemplate rs = new RestTemplate();

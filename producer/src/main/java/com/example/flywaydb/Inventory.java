@@ -4,13 +4,12 @@ import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
+@Entity
+public class Inventory implements Serializable {
+	private static final long serialVersionUID = 2849473278882620821L;
 
-public class Inventory {
-	
-	
-	
+	@Id
 	private int product_Id;
 	
 	private String product_Name;

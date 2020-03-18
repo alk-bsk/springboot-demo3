@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.flywaydb.Inventory;
 
-
+@Repository
 public interface InventoryRepository extends CrudRepository<Inventory, Integer>{
 
 }

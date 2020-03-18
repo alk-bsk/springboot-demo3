@@ -3,7 +3,6 @@ package com.example.project;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JacksonStdImpl;
 
-
 public class Inventory {
 	private int product_Id;
 	private String product_Name;
